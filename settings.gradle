@@ -1,2 +1,4 @@
 rootProject.name = "LuoKeMapTracker"
 include ':app'
+include ':opencv_sdk'
+project(':opencv_sdk').projectDir = file('opencv_sdk/sdk')

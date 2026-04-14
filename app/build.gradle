@@ -45,6 +45,6 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 
-    // OpenCV Android SDK
-    implementation 'org.opencv:opencv:4.9.0'
+    // OpenCV Android SDK (本地模块，CI 自动下载)
+    implementation project(':opencv_sdk')
 }

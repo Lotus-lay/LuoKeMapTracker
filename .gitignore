@@ -22,3 +22,4 @@ local.properties
 
 # Large map file (user-specific)
 app/src/main/assets/map_full.png
+opencv_sdk/
